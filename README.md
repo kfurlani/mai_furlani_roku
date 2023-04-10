@@ -33,7 +33,7 @@ and priveleges as well</li>
 
 <h2>Meet the Developer:</h2>
 <ul>
-<li>Krystal Furlani <a href="https://github.com/kfurlani">@evica-ai</a></li>
+<li>Krystal Furlani <a href="https://github.com/kfurlani">@kfurlani</a></li>
 <li>Evica Mai <a href="https://github.com/evica-ai">@evica-ai</a></li>
 </ul>
 
