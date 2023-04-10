@@ -1,5 +1,5 @@
 <p>
-<video src="/assets/readme.jpg" width="100%" style="max-width:100%;">
+<img src="assets/readme.png" width="100%" style="max-width:100%;">
 </p>
 <h1 text-align="center">Roku Assignment</h1>
 <h2>Welcome to the revamp of Roku streaming platform</h2>
