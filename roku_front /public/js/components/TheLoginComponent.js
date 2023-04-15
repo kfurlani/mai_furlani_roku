@@ -8,7 +8,7 @@ export default {
             <div class="pill-2 rotate-45"></div>
             <div class="pill-3 rotate-45"></div>
             <div class="pill-4 rotate-45"></div>
-            <img src="/images/tv.jpg" alt="" class="login__img">
+            <img src="/images/tv.png" alt="" class="login__img">
         </div>
         <div class="login">
             <h3>User Login</h3>

@@ -2,19 +2,19 @@ export default {
     name: 'TheKidsHomePageComponent',
 
     template: `
-    <div>
-    <h1>IMDb Movie List</h1>
-    <div>
-    <ul>
-      <li v-for="movie in movies" :key="movie.id">
-        <img :src="movie.image" alt="Movie Poster">
-        <h3>{{ movie.title }}</h3>
-        <p>Year: {{ movie.year }}</p>
-        <p>Rating: {{ movie.imDbRating }} / 10</p>
-      </li>
-    </ul>
+    <div class="kid__container">
+     <h1>IMDb Movie List</h1>
+      <div class="kid__listing">
+        <ul>
+          <li v-for="movie in movies" :key="movie.id">
+            <img :src="movie.image" alt="Movie Poster" class="kids_movies">
+            <h3 class="kids_titles">{{ movie.title }}</h3>
+            <p>Year: {{ movie.year }}</p>
+            <p>Rating: {{ movie.imDbRating }} / 10</p>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
     `,
 
     data() {
