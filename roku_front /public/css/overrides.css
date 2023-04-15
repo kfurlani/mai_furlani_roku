@@ -1,0 +1,15 @@
+#main-header { top: 80; }
+
+#render-container { margin-top: 80px; }
+
+.login-submit { margin-top: 80px; }
+
+.log-in label { margin: 1em 0.5em 0.5em 0; }
+
+.float-right { float: right;}
+
+.signup {margin-left: 1.5em;}
+
+.user-panel { text-align: center;}
+
+.userpanel {display: inline-block; margin: 1em;}
