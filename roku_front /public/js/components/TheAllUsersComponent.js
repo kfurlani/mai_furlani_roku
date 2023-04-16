@@ -6,7 +6,7 @@ export default {
     template: `
     <section class="user-panel">
     
-    <h2> Who's using Roku?</h2>
+    <h2 class="login_profile"> CHOOSE PROFILE </h2>
         <section>
                     <user v-for="user in users" :user="user"></user>
         </section>

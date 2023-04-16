@@ -1,12 +1,22 @@
-#main-header { top: 80; }
+/* .roku-header { top: 80px; } */
 
-#render-container { margin-top: 80px; }
+#render-container { margin-top: 80px; margin-bottom: 1rem;}
 
 .login-submit { margin-top: 80px; }
 
 .log-in label { margin: 1em 0.5em 0.5em 0; }
 
-.float-right { float: right;}
+.float-right { float: right; display: flex; }
+.float-right ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+.float-right ul li{
+    margin: 5px;
+}
 
 .signup {margin-left: 1.5em;}
 

@@ -33,8 +33,9 @@ body {
 
 .login__img {
     max-width: 100%;
+    margin-left: -12px;
     height: 60vh;
-    box-shadow: 0 0 17px 10px rgb(0 0 0 / 20%);
+    background: white;
 
 }
 
@@ -74,7 +75,7 @@ body {
 
 .design .pill-4 {
     top: -180px;
-    left: 220px;
+    left: 400px;
     position: absolute;
     height: 300px;
     width: 120px;
@@ -174,4 +175,11 @@ a.forgot {
     .design {
         display: block;
     }
+}
+
+.login_profile {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
 }

@@ -56,15 +56,73 @@ table {
 }
 
 .roku-header {
-  background-color: #333;
+  top: 0;
   padding: 0.75em 1.5em;
   margin-bottom: 2em;
+  background-color: #3C096C;
+  opacity: 0.8;
 }
+
 .roku-header span {
   font-family: "Poppins", sans-serif;
-  font-size: 3.5em;
+  font-size: 2em;
   position: relative;
   top: -2px;
+  color: white;
+}
+
+.movie__container {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: #3C096C;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.movie__listing ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0 0; /* Add 20px margin to the top */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie__listing ul li {
+  flex: 0 0 calc(20% - 20px);
+  margin: 10px;
+  color: #e6e6e6;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  background-color: #5A189A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.movie_movies {
+  width: 100%;
+  max-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.movie_titles {
+  padding: 5px;
+  margin: 10px 0;
+  color: white;
+}
+
+p {
+  margin: 0;
+  line-height: 1rem;
+  color: #c68df8;
+  font-size: 0.8rem;
 }
 
 *, html, body {
@@ -100,8 +158,9 @@ body {
 
 .login__img {
   max-width: 100%;
+  margin-left: -12px;
   height: 60vh;
-  box-shadow: 0 0 17px 10px rgba(0, 0, 0, 0.2);
+  background: white;
 }
 
 .rotate-45 {
@@ -141,7 +200,7 @@ body {
 
 .design .pill-4 {
   top: -180px;
-  left: 220px;
+  left: 400px;
   position: absolute;
   height: 300px;
   width: 120px;
@@ -187,6 +246,10 @@ body {
   color: #686868;
 }
 
+::-moz-placeholder {
+  color: #9a9a9a;
+}
+
 ::placeholder {
   color: #9a9a9a;
 }
@@ -208,7 +271,9 @@ a {
   font-size: 12px;
   color: #9a9a9a;
   cursor: pointer;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   text-decoration: none;
 }
 
@@ -238,7 +303,23 @@ a.forgot {
     display: block;
   }
 }
-ul {
+.login_profile {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.kid__container {
+  margin-top: auto;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: #3C096C;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.kid__listing ul {
   list-style-type: none;
   padding: 0;
   margin: 20px 0 0; /* Add 20px margin to the top */
@@ -246,25 +327,39 @@ ul {
   flex-wrap: wrap;
 }
 
-li {
+.kid__listing ul li {
   flex: 0 0 calc(20% - 20px);
   margin: 10px;
+  color: #e6e6e6;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  background-color: #5A189A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
 }
 
-img {
+.kids_movies {
   width: 100%;
   max-height: 500px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-h3 {
+.kids_titles {
+  padding: 5px;
   margin: 10px 0;
   color: white;
 }
 
 p {
   margin: 0;
-  color: white;
-}
-
-/*# sourceMappingURL=main.css.map */
+  line-height: 1rem;
+  color: #c68df8;
+  font-size: 0.8rem;
+}/*# sourceMappingURL=main.css.map */

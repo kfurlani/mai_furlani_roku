@@ -9,7 +9,7 @@ export default {
         <img :src='"images/" + user.avatar' class="rounded-circle img-fluid">
         <p>{{user.username}}</p>
     </div>
-</div>`,
+    </div>`,
 
     methods: {
         navToHomePage() {
