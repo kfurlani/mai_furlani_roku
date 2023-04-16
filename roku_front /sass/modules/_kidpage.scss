@@ -1,3 +1,12 @@
+.kid__container {
+  margin-top: auto;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: #3C096C;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .kid__listing ul {
     list-style-type: none;
     padding: 0;
@@ -9,6 +18,18 @@
 .kid__listing ul li {
     flex: 0 0 calc(20% - 20px);
     margin: 10px;
+    color: #e6e6e6;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    background-color: #5A189A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
   }
   
 .kids_movies {
@@ -17,12 +38,16 @@
     object-fit: cover;
   }
   
-.kids_title {
+.kids_titles {
+    padding: 5px;
     margin: 10px 0;
     color: #ffff;
+    
   }
   
   p {
     margin: 0;
-    color: #ffff;
+    line-height: 1rem;
+    color: #c68df8;
+    font-size: 0.8rem;
   }
