@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 router.use("/", createProxyMiddleware ({
-    target: 'http://localhost:5005',
+    target: 'http://localhost:5056',
     headers: {
         accept: "application/json, application/x-www-0form-urlencoded"
     },
